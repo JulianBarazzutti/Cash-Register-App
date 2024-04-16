@@ -1,0 +1,30 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#cash {
+  padding: 10px;
+  font-size: 16px;
+}
+
+#purchase-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#change-due {
+  margin-top: 20px;
+  font-size: 20px;
+}
